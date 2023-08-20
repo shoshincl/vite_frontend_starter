@@ -1,0 +1,42 @@
+{
+  "router": {
+    "root": {
+      "index": {
+        "helmet": {
+          "TITLE": "Inicio",
+          "meta": {
+            "NAME": "Index",
+            "CONTENT": "Landing Page"
+          }
+        }
+      },
+      "home": {
+        "helmet": {
+          "TITLE": "Home",
+          "meta": {
+            "NAME": "Home",
+            "CONTENT": "Home Page"
+          }
+        }
+      }
+    },
+    "login": {
+      "helmet": {
+        "TITLE": "Iniciar Sesión",
+        "meta": {
+          "NAME": "Login",
+          "CONTENT": "Login Page"
+        }
+      }
+    },
+    "signup": {
+      "helmet": {
+        "TITLE": "Crear Cuenta",
+        "meta": {
+          "NAME": "Signup",
+          "CONTENT": "Signup Page"
+        }
+      }
+    }
+  }
+}
